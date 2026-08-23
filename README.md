@@ -22,6 +22,8 @@ This repository contains my Java programming practice, covering basic Java progr
 
 \- Dynamic Programming
 
+\- Random Application Logics
+
 
 
 \## Language
