@@ -10,13 +10,12 @@ class Demo {
         }
         return rv;
     }
-
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        if (input.hasNextLong()) {
-            long num = input.nextLong();
-            System.out.println(Demo.reverse(num));
+        public static void main (String[]args){
+            Scanner input = new Scanner(System.in);
+            if (input.hasNextLong()) {
+                long num = input.nextLong();
+                System.out.println(Demo.reverse(num));
+            }
+            input.close();
         }
-        input.close();
     }
-}
