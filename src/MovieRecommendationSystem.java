@@ -191,7 +191,7 @@ public class MovieRecommendationSystem extends JFrame {
         center.add(Box.createVerticalStrut(60));
 
         JLabel featured = new JLabel(
-                "Popular Directors & Stars"
+                "Popular Directors and Stars"
         );
 
         featured.setFont(headingFont);
