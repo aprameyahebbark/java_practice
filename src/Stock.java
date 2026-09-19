@@ -9,6 +9,7 @@ public class Stock {
                 maxProfit = profit;
             }
             if (prices[i] < minPrice) {
+
                 minPrice = prices[i];
             }
         }
@@ -22,7 +23,7 @@ public class Stock {
             prices[i] = sc.nextInt();
         }
         int result = maximumProfit(prices);
-        System.out.println(result);
+        System.out.println("Result "+ result);
         sc.close();
     }
 }
