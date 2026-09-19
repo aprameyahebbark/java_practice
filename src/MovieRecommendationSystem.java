@@ -185,11 +185,8 @@ public class MovieRecommendationSystem extends JFrame {
         buttonPanel.add(genreButton);
         buttonPanel.add(searchButton);
         buttonPanel.add(topButton);
-
         center.add(buttonPanel);
-
         center.add(Box.createVerticalStrut(60));
-
         JLabel featured = new JLabel(
                 "Popular Directors and Stars"
         );
