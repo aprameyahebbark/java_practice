@@ -227,10 +227,6 @@ public class MovieRecommendationSystem extends JFrame {
         refresh();
     }
 
-    // =========================================================
-    // GENRE PAGE
-    // =========================================================
-
     void showGenrePage() {
 
         setupMainPanel();
