@@ -6,7 +6,7 @@ public class ValidParentheses {
     public static boolean validParentheses(String s) {
         Stack<Character> stack = new Stack<>();
         for (char ch : s.toCharArray()) {
-            if (ch == '(' || ch == '[' || ch == '{') {
+            if (ch == '(' || ch == '['|| ch == '{') {
                 stack.push(ch);
             }
             else {
