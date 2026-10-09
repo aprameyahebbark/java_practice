@@ -8,7 +8,7 @@ public class RockPaper {
         int[] dp = new int[4];
         System.out.println("1. Stone");
         System.out.println("2. Paper");
-        System.out.println("3. Scissors");
+        System.out.println("3. Scissor");
         System.out.print("Enter your choice: ");
         int user = sc.nextInt();
         int computer = (int)(Math.random() * 3) + 1;
